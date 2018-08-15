@@ -7,50 +7,59 @@ header {
     border-style: solid;
     display: inline-block;
     position: relative;
-    width: 960px;
+    width: 100%;
 }
 
 #headfloat {
     float: right;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 body {
     background: url(../images/oriental.png);
 }
+
+
 article {
-    text-align: justify;
+    /*text-align: justify;*/
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-width: 1px;
     border-style: solid;
     display: inline-block;
-    padding: 2px;
+    /*padding: 2px;*/
     width: 960px;
-    position: absolute;
+}
+
+#articleformat {
+    margin-left: 120px;
+    margin-right: auto;
 }
 footer {
     border-color: #4aaaa5;
     border-width: 10px;  
     background-color: #666666;
-    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #ffffff;
     position: absolute;
-    width: 960px;
+    width: 100%;
     bottom: 0;
 }
 
 
 h1 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #ffffff;
+    color: #777777;
 }
 
 #h1aboutme {
     color: #4aaaa5;
     border-width: 1px;
-    border-style: solid;
+    border-bottom: solid;
     border-color: #dddddd;
-    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
 }
 
 #aboutme {
