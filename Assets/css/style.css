@@ -9,7 +9,7 @@ header {
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 96px;
+    height: 100px;
 }
 
 #headfloat {
@@ -26,22 +26,16 @@ body {
 
 
 article {
-    /*text-align: justify;*/
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* border-width: 1px;
-    border-style: solid;
-    display: inline-block;
-    /*padding: 2px;*/
-    /*width: 960px; */
     float: left;
-  width: 100%;
-  max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
 }
 
 footer {
@@ -97,8 +91,18 @@ h2 {
     float: left;
     height: -webkit-fill-available;
     -webkit-margin-before: 0em;
+    padding: 10px;
 }
 
+.container {
+    position: relative;
+    
+}
+.portfolio-subtitle {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+}
 input[type=submit] {
     background-color: #4aaaa5;
     color: #ffffff;
