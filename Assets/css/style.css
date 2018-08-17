@@ -12,12 +12,17 @@ header {
     height: 100px;
 }
 
-#headfloat {
+ul {
+    list-style-type: none;
+    color: #cccccc;
+}
+li {
     float: right;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 10px;
-    padding-right: 120px;
+    padding-right: 20px;
+    margin: 10px 0 20px 10px;
 }
 body {
     background: url(../images/oriental.png);
