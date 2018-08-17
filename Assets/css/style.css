@@ -30,17 +30,24 @@ article {
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-width: 1px;
+    /* border-width: 1px;
     border-style: solid;
     display: inline-block;
     /*padding: 2px;*/
-    width: 960px;
+    /*width: 960px; */
+    float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
-.articleformat {
+/* .articleformat {
     margin-left: 50px;
     margin-right: 50px;
-}
+} */
 
 footer {
     text-align: -webkit-center;
